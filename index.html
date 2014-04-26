@@ -1,0 +1,152 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Seriously.js</title>
+		
+		<style type="text/css">
+		
+		#main {
+			margin: 20px auto;
+			height: 540px;
+			position: relative;
+		}
+		
+		#main #video {
+			display: none;
+			position: absolute;
+		}
+		
+		#canvas {
+			border: black solid 1px;
+			z-index: 10;
+			width: 960px;
+			height: 540px;
+		}
+		
+		#iframe-container, #iframe-container > iframe {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			z-index: -1;
+			overflow: hidden;
+		}
+		#iframe-container > iframe {
+			visibility: hidden; 
+/*			display: none; */
+		}
+		
+		#main .vjs-big-play-button, #main .vjs-controls, #main .vjs-styles-check {
+			z-index: 202;
+		}
+		
+		#main .vjs-spinner {
+			z-index: 201;
+		}
+		
+		#main .vjs-fullscreen-control {
+			display: none;
+		}
+		
+		#buttons {
+			position: absolute;
+			width: 100%;
+			bottom: 30px;
+			text-align: center;
+		}
+		
+		h1, h2 {
+			text-align: center;
+			font-family: 'Courier New', courier;
+		}
+		
+		a, a:visited {
+			color: #222;
+		}
+		
+		p {
+			text-align: center;
+		}
+		
+		.error {
+			position: absolute;
+			width: 60%;
+			top: 15%;
+			height: 14%;
+			left: 20%;
+			padding: 4px;
+			background-color: #aaa;
+			border: black solid 2px;
+			line-height: normal;
+			display: none;
+		}
+		
+		.quick-links {
+			list-style: none outside none;
+			margin: 36px 0;
+			min-height: 30px;
+			overflow: hidden;
+			padding: 5px 20px;
+			text-align: center;
+		}
+
+		.quick-links li {
+			display: inline;
+			margin: 0 5px;
+		}
+
+		iframe {
+			border: none;
+		}
+
+		</style>
+		<link rel="stylesheet" href="css/video-js.css" type="text/css" media="screen" title="Video JS">
+  	</head>
+	<body>
+		<!-- Begin VideoJS -->
+		<h1>Seriously?</h1>
+		<div class="video-js-box" id="main" style="width: 960px; height: 540px;">
+			<!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
+			<!--
+				todo: add poster image
+				todo: if webgl fails, play pre-rendered version and clear out all the extra stuff
+			-->
+			<canvas width="960" height="540" id="canvas"></canvas>
+			<video class="video-js" width="960" height="540" controls preload id="video"><!--
+				<source src="video/wtf_greenscreen_sm.webm" type="video/webm" />
+				<source src="video/wtf_greenscreen_sm.mp4" type="video/mp4" />
+			--></video>
+			<div id="error-webgl" class="error">Sadly, your browser does not support WebGL and therefore cannot see the full glory of Seriously.js. We proudly recommend <a href="http://getfirefox.com">Firefox</a> or <a href="http://google.com/chrome">Chrome</a>, for they are lovely browsers indeed. More information is <a href="http://get.webgl.org/">here</a>.</div>
+			<div id="error-context" class="error">Sadly, we are unable to get Seriously.js to work on your computer. Sometimes WebGL gets a bit weird with certain graphics hardware and drivers. Please have a look <a href="http://get.webgl.org/">here</a> for more information.</div>
+			<div id="buttons">
+				<button id="button1">By the Sea</button>
+				<button id="button2">Modern Warfare</button>
+				<button id="button3">Spirit</button>
+				<button id="button4">British Invasion</button>
+				<button id="button5">Raw</button>
+			</div>
+		</div>
+<!--
+
+CREDITS:
+
+Thanks to Ok Go for letting me "borrow" their video.
+http://okgo.net
+
+images (creative commons):
+http://www.flickr.com/photos/28556257@N00/441814998/
+http://www.flickr.com/photos/rgallant/4122555751/
+
+-->
+		<h2>Seriously.</h2>
+		<p><a href="https://github.com/brianchirls/Seriously.js">code</a></p>
+		<p>Created by <a href="http://chirls.com">Brian Chirls</a> with support from:</p>
+		<p><a href="http://mozillapopcorn.org"><img src="images/mozilla.png" alt="mozilla"/></a></p>
+		<script src="js/require.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/camera.js" type="text/javascript"></script>
+
+	</body>
+</html>
+
