@@ -85,14 +85,14 @@
 		//todo: blur
 
 		var mansion = {
-      		blend: seriously.effect('blend'),
-      		gold: seriously.effect('tone')
+			blend: seriously.effect('blend'),
+			gold: seriously.effect('tone')
 		};
 		mansion.blend.top = chroma;
 		mansion.blend.bottom = images.mansion;
 
 		mansion.gold.source = mansion.blend;
-        mansion.gold.light = 'rgb(255,214,0)';
+		 mansion.gold.light = 'rgb(255,214,0)';
 		mansion.gold.dark = 'rgb(139,69,19)';
 		mansion.gold.toned = 0.3;
 
