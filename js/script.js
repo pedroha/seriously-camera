@@ -5,7 +5,8 @@
 		vjs,
 		imagesWaiting = 0,
 		imagesToLoad = {
-			fish: 'jpg',
+			seasonal_blue_moon:'jpg',
+			mansion:'jpg',
 			urbandecay: 'jpg',
 			curtain: 'jpg',
 			colorcube: 'png',
@@ -72,7 +73,7 @@
 		};
 
 		water.blend.top = chroma;
-		water.blend.bottom = images.fish;
+		water.blend.bottom = images.seasonal_blue_moon;
 
 		water.blue.light = 'rgb(140, 140, 255)';
 		water.blue.dark = 'rgb(0, 0, 50)';
@@ -82,6 +83,19 @@
 		water.blue.source = water.blend;
 		water.ripple.source = water.blue;
 		//todo: blur
+
+		var mansion = {
+      		blend: seriously.effect('blend'),
+      		gold: seriously.effect('tone')
+		};
+		mansion.blend.top = chroma;
+		mansion.blend.bottom = images.mansion;
+
+		mansion.gold.source = mansion.blend;
+        mansion.gold.light = 'rgb(255,214,0)';
+		mansion.gold.dark = 'rgb(139,69,19)';
+		mansion.gold.toned = 0.3;
+
 
 		var spirit = {
 			blend: seriously.effect('blend'),
@@ -155,6 +169,13 @@
 					output[inputName || 'source'] = water.ripple;//todo: blur
 				},
 				blend: water.blend
+			},
+			{
+				id: 'mansion',
+				activate: function(output, inputName) {
+					output[inputName || 'source'] = mansion.gold;//todo: blur
+				},
+				blend: mansion.blend
 			},
 			{
 				id: 'nightvision',
