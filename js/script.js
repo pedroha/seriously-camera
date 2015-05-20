@@ -1,10 +1,10 @@
-(function () {
-	'use strict';
+//	'use strict';
 
 	var video = document.getElementById('video'),
 		vjs,
 		imagesWaiting = 0,
 		imagesToLoad = {
+			weather: 'jpg',
 			fish: 'jpg',
 			urbandecay: 'jpg',
 			curtain: 'jpg',
@@ -72,10 +72,10 @@
 		};
 
 		water.blend.top = chroma;
-		water.blend.bottom = images.fish;
+		water.blend.bottom = images.weather;
 
-		water.blue.light = 'rgb(140, 140, 255)';
-		water.blue.dark = 'rgb(0, 0, 50)';
+		water.blue.light = 'rgb(240, 240, 255)';
+		water.blue.dark = 'rgb(50, 50, 150)';
 		water.blue.toned = 0.3;
 
 
@@ -307,10 +307,6 @@
 			return;
 		}
 
-		loadImages(function () {
-			imagesLoaded = true;
-			setUpVideo();
-		});
 	});
 
 	require([
@@ -332,4 +328,10 @@
 		scriptsLoaded = true;
 		setUpVideo();
 	});
-}());
+
+
+	loadImages(function () {
+		imagesLoaded = true;
+		setUpVideo();
+	});
+

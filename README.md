@@ -57,8 +57,8 @@ https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
 
 https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos
 
-WebRTC Take Still Photos
-------------------------
+Taking Still Photos with WebRTC
+-------------------------------
 http://mdn-samples.mozilla.org/s/webrtc-capturestill/
 [source jsfiddle] (http://jsfiddle.net/ggmc9xz7/)
 [refactored jsfiddle] (http://jsfiddle.net/sztbLqsz/)

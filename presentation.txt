@@ -1,0 +1,18 @@
+Green screening with WebRTC
+Pedro Ha. ph@educreational.com
+
+HTML5 Video Canvas Examples
+
+http://www.barbafan.de/html5video?video=tron
+http://www.barbafan.de/html5video
+http://media.chikuyonok.ru/ambilight/
+http://craftymind.com/factory/html5video/CanvasVideo.html
+http://seriouslyjs.com/
+
+Taking Still Photos with WebRTC
+http://mdn-samples.mozilla.org/s/webrtc-capturestill/
+http://jsfiddle.net/ggmc9xz7/
+
+Reference:
+http://www.github.com/pedroha/seriously-camera
+
