@@ -34,5 +34,10 @@ http://filmmakeriq.com/
 WebRTC Mozilla
 --------------
 https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
+https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos
 
+WebRTC Take Still Photos
+------------------------
+http://mdn-samples.mozilla.org/s/webrtc-capturestill/
+http://jsfiddle.net/ggmc9xz7/
 
