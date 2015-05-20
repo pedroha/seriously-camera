@@ -1,10 +1,12 @@
 Green screening with WebRTC
 Pedro Ha. ph@educreational.com
 
+HTML5 Tags: <canvas>, <video>, webgl with canvas
+http://slides.html5rocks.com/
+
 HTML5 Video Canvas Examples
 
 http://www.barbafan.de/html5video?video=tron
-http://www.barbafan.de/html5video
 http://media.chikuyonok.ru/ambilight/
 http://craftymind.com/factory/html5video/CanvasVideo.html
 http://seriouslyjs.com/
@@ -15,4 +17,7 @@ http://jsfiddle.net/ggmc9xz7/
 
 Reference:
 http://www.github.com/pedroha/seriously-camera
+
+Notes: Examples work with the HTML5 <video> tag, not with Flash player!
+http://www.html5rocks.com/en/tutorials/video/basics/
 
