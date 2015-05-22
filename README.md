@@ -4,7 +4,7 @@ Green screening with WebRTC
 Real-time video processing using HTML5 <video> and <canvas>
 -----------------------------------------------------------
 
-HTML5 [<video>](http://slides.html5rocks.com/#video-audio) is the standard HTML5 tag for videos. The great majority of current web video is based on Flash players (but Flash is not supported on iphones and ipads). The Flash players use the <embed> tag instead.
+HTML5 [&lt;video&gt;](http://slides.html5rocks.com/#video-audio) is the standard HTML5 tag for videos. The great majority of current web video is based on Flash players (but Flash is not supported on iphones and ipads). The Flash players use the <embed> tag instead.
 
 [HTML <canvas>](http://slides.html5rocks.com/#canvas-2d) supports drawing operations in [2D](http://slides.html5rocks.com/#canvas-2d-example) and [3D/WebGL](http://slides.html5rocks.com/#canvas-3d)
 
