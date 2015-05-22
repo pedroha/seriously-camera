@@ -85,7 +85,7 @@ Advanced Hacking
 
 We have a reusable initCamera() [Hint: use the web console]
 
-Tron: initCamera('barbapapa')
-Ambilight: initCamera('example');
-Blow up: initCamera('sourcevid');
-Seriously: initCamera('video');
+* Tron: initCamera('barbapapa')
+* Ambilight: initCamera('example');
+* Blow up: initCamera('sourcevid');
+* Seriously: initCamera('video');
