@@ -61,7 +61,7 @@ These are some great short informational videos to get green screening on the ch
 [Green Screen Basics](https://www.youtube.com/watch?v=oxjlKc8ms1c)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oxjlKc8ms1c" frameborder="0" allowfullscreen></iframe>
 
-In the past, I had tried with flat green paper and it worked very well; thought I didn't cover all the background for a realistic compositing. This time, I wanted to try a little more professional setup. So I ordered by Amazon:
+In the past, I had tried with flat green paper and it worked very well; though I wasn't able to cover all the background for a realistic compositing. This time, I wanted to try a little more professional setup, so I ordered by Amazon:
 
 * $20 [Prism Backdrops 6x10' Chromakey Green Muslin Photo Video Backdrop Background](http://www.amazon.com/gp/product/B004EKAJ1M)
 
