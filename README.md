@@ -44,7 +44,7 @@ Combining Seriously's Green Screening and video capture using WebRTC, we get:
 
 http://pedroha.github.io/seriously-camera/
 
-And we need to hijack the source of the &lt;video&gt; tag to the web camera using [initCamera()](https://github.com/pedroha/seriously-camera/blob/master/js/camera.js)
+All we need is to hijack the source of the &lt;video&gt; tag to the web camera using [initCamera()](https://github.com/pedroha/seriously-camera/blob/master/js/camera.js)
 
 
 How to setup Green Screening on the cheap
