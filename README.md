@@ -4,7 +4,7 @@ Green screening with WebRTC
 Real-time video processing using HTML5 <video> and <canvas>
 -----------------------------------------------------------
 
-[HTML5 <video>](http://slides.html5rocks.com/#video-audio) is the standard HTML5 tag for videos. The great majority of current web video is based on Flash players (but Flash is not supported on iphones and ipads). The Flash players use the <embed> tag instead.
+HTML5 [<video>](http://slides.html5rocks.com/#video-audio) is the standard HTML5 tag for videos. The great majority of current web video is based on Flash players (but Flash is not supported on iphones and ipads). The Flash players use the <embed> tag instead.
 
 [HTML <canvas>](http://slides.html5rocks.com/#canvas-2d) supports drawing operations in [2D](http://slides.html5rocks.com/#canvas-2d-example) and [3D/WebGL](http://slides.html5rocks.com/#canvas-3d)
 
@@ -68,8 +68,6 @@ In the past, I had tried with flat green paper and it worked very well; thought 
 * $40 [StudioPRO SPK10-051 Product Photography Table Top Photo Studio Lighting Kit (Black)](http://www.amazon.com/gp/product/B00L5TGT82)
 
 
-
-
 Hollywoods History of Faking It | Evolution of Greensock Compositing
 --------------------------------------------------------------------
 
@@ -82,6 +80,10 @@ References:
 * http://filmmakeriq.com/
 
 
+Advanced Hacking
+----------------
+
+We have a reusable initCamera(), let's visit the debu
 
 Tron: initCamera('barbapapa')
 Ambilight: initCamera('example');
