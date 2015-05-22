@@ -20,7 +20,7 @@ All the examples actually use 2 &lt;canvas&gt; elements: one for intermediate pi
 
 Ambilight was inspired by [Philips's ambilight player](http://www.ambilightplayer.philips.com/). Chikuyonok has a [blog post in Russian](http://chikuyonok.ru/2010/03/ambilight-video/)
 
-Craftymind has a [blog post]((http://www.craftymind.com/blowing-up-html5-video-and-mapping-it-into-3d-space/)) describing the Blow Up.
+Craftymind has a blog post describing the [Blow Up](http://www.craftymind.com/blowing-up-html5-video-and-mapping-it-into-3d-space/)
 
 All the examples are using canvas 2D with the exception of Seriously, which is using the WebGL context from the &lt;canvas&gt; element to use WebGL shaders for the many different effects. Seriously is based on real-time green screening and using many different filters with a different image background.
 
