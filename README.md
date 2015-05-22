@@ -26,42 +26,25 @@ All the examples are using canvas 2D with the exception of Seriously, which is u
 
 
 Media Capture API for WebRTC
-============================
+----------------------------
 
-```
-
-HTML5 Blowing Up
-----------------
-http://www.craftymind.com/blowing-up-html5-video-and-mapping-it-into-3d-space/
-http://craftymind.com/factory/html5video/CanvasVideo.html
-
-```
-```
-
-Seriously.js (Green screening!?)
-------------
-
-http://seriouslyjs.com/
-
-```
-```
-
-WebRTC Mozilla
---------------
-https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
-
-https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos
-
-
-
-Taking Still Photos with WebRTC
--------------------------------
 [WebRTC](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC
-) is a
+) is a family of technologies to enable audio/video peer to peer direct communication through browsers. One of the related API's is the Media Capture API. Through the HTML5 <video> tag, it's possible to attach the web camera as the source of the <video>
 
-http://mdn-samples.mozilla.org/s/webrtc-capturestill/
-[source jsfiddle] (http://jsfiddle.net/ggmc9xz7/)
-[refactored jsfiddle] (http://jsfiddle.net/sztbLqsz/)
+Mozilla has a great [example on how to capture still photos](http://mdn-samples.mozilla.org/s/webrtc-capturestill/)
+
+The same code has been copied to a [jsfiddle](http://jsfiddle.net/ggmc9xz7/) and 
+[refactored](http://jsfiddle.net/sztbLqsz/) a reusable [initCamera()](https://github.com/pedroha/seriously-camera/blob/master/js/camera.js)
+
+
+Green Screening using WebRTC
+----------------------------
+
+Combining Seriously's Green Screening and video capture using WebRTC, we get:
+
+http://pedroha.github.io/seriously-camera/
+
+And we need to hijack the source of the <video> tag to the web camera using [initCamera()](https://github.com/pedroha/seriously-camera/blob/master/js/camera.js)
 
 
 How to setup Green Screening on the cheap
