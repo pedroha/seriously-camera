@@ -89,3 +89,7 @@ We have a reusable initCamera() [Hint: use the web console]
 * Ambilight: initCamera('example');
 * Blow up: initCamera('sourcevid');
 * Seriously: initCamera('video');
+
+Article on a simpler technique for green screening and webrtc
+https://timtaubert.de/blog/2012/10/building-a-live-green-screen-with-getusermedia-and-mediastreams/
+
