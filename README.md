@@ -1,6 +1,11 @@
 Green screening with WebRTC
 ===========================
 
+Latest update for NYT Open Source Fair 3.0 (July 2015)
+* http://greenscreen.surge.sh/
+* https://github.com/pedroha/greenscreen
+
+
 Real-time video processing using HTML5 &lt;video&gt; and &lt;canvas&gt;
 -----------------------------------------------------------
 
