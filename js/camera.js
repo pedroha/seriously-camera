@@ -1,5 +1,5 @@
 var initCamera = function(videoId) {
-  var video = document.querySelector(videoId);
+  video = document.querySelector(videoId);
 
 
   navigator.getMedia = ( navigator.getUserMedia || 
