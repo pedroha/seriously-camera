@@ -90,10 +90,10 @@ Advanced Hacking
 
 We have a reusable initCamera() [Hint: use the web console]
 
-* Tron: initCamera('barbapapa')
-* Ambilight: initCamera('example');
-* Blow up: initCamera('sourcevid');
-* Seriously: initCamera('video');
+* Tron: initCamera('#barbapapa')
+* Ambilight: initCamera('#example');
+* Blow up: initCamera('#sourcevid');
+* Seriously: initCamera('#video');
 
 Article on a simpler technique for green screening and webrtc
 https://timtaubert.de/blog/2012/10/building-a-live-green-screen-with-getusermedia-and-mediastreams/
